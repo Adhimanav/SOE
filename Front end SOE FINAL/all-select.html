@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./all-select.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Jura:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Kameron:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Kadwa:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="all-select">
+      <div class="search4">
+        <div class="search5">Search</div>
+        <img
+          class="search-alt-duotone-line-icon2"
+          alt=""
+          src="./public/search-alt-duotone-line2.svg"
+        />
+      </div>
+      <img class="shop-icon2" alt="" src="./public/shop1.svg" id="shopIcon" />
+
+      <button class="all4">
+        <div class="all5">All</div>
+      </button>
+      <button class="combos4" id="combos">
+        <div class="combos5">Combos</div>
+      </button>
+      <button class="deserts4" id="deserts">
+        <div class="deserts5">Deserts</div>
+      </button>
+      <button class="drinks4" id="drinks">
+        <div class="drinks5">Drinks</div>
+      </button>
+      <button class="special5" id="special">
+        <div class="special6">Special</div>
+      </button>
+      <div class="item-no12" id="itemNo1Container">
+        <div class="item-no1-inner"></div>
+      </div>
+      <div class="item-no22" id="itemNo2Container">
+        <div class="item-no1-inner"></div>
+      </div>
+      <div class="item-no34" id="itemNo3Container">
+        <div class="item-no1-inner"></div>
+      </div>
+      <div class="item-no35" id="itemNo3Container1">
+        <div class="item-no1-inner"></div>
+      </div>
+    </div>
+
+    <script>
+      var shopIcon = document.getElementById("shopIcon");
+      if (shopIcon) {
+        shopIcon.addEventListener("click", function (e) {
+          window.location.href = "./mobile-cart.html";
+        });
+      }
+      
+      var combos = document.getElementById("combos");
+      if (combos) {
+        combos.addEventListener("click", function (e) {
+          window.location.href = "./combo-select.html";
+        });
+      }
+      
+      var deserts = document.getElementById("deserts");
+      if (deserts) {
+        deserts.addEventListener("click", function (e) {
+          window.location.href = "./desert-select.html";
+        });
+      }
+      
+      var drinks = document.getElementById("drinks");
+      if (drinks) {
+        drinks.addEventListener("click", function (e) {
+          window.location.href = "./drinks-select.html";
+        });
+      }
+      
+      var special = document.getElementById("special");
+      if (special) {
+        special.addEventListener("click", function (e) {
+          window.location.href = "./special.html";
+        });
+      }
+      
+      var itemNo1Container = document.getElementById("itemNo1Container");
+      if (itemNo1Container) {
+        itemNo1Container.addEventListener("click", function (e) {
+          window.location.href = "./dish-overview.html";
+        });
+      }
+      
+      var itemNo2Container = document.getElementById("itemNo2Container");
+      if (itemNo2Container) {
+        itemNo2Container.addEventListener("click", function (e) {
+          window.location.href = "./dish-overview.html";
+        });
+      }
+      
+      var itemNo3Container = document.getElementById("itemNo3Container");
+      if (itemNo3Container) {
+        itemNo3Container.addEventListener("click", function (e) {
+          window.location.href = "./dish-overview.html";
+        });
+      }
+      
+      var itemNo3Container1 = document.getElementById("itemNo3Container1");
+      if (itemNo3Container1) {
+        itemNo3Container1.addEventListener("click", function (e) {
+          window.location.href = "./dish-overview.html";
+        });
+      }
+      </script>
+  </body>
+</html>

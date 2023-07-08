@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./mobile-menu-home-page.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Jura:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Kameron:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Kadwa:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="mobile-menu-home-page">
+      <input
+        class="search10"
+        type="search"
+        placeholder="Search"
+        maxlength
+        minlength
+      />
+
+      <img class="shop-icon8" alt="" src="./public/shop4.svg" />
+
+      <div class="todays-special">Todays Special</div>
+      <img class="image-1-icon" alt="" src="./public/image-1@2x.png" />
+
+      <button class="all10" id="all">
+        <div class="all11">All</div>
+      </button>
+      <button class="combos10" id="combos">
+        <div class="combos11">Combos</div>
+      </button>
+      <button class="desert" id="desert">
+        <div class="deserts10">Deserts</div>
+      </button>
+      <button class="drinks10" id="drinks">
+        <div class="drinks11">Drinks</div>
+      </button>
+      <button class="all12" id="all1">
+        <div class="special11">Special</div>
+      </button>
+      <div class="mobile-menu-home-page-child"></div>
+      <div class="popular-picks">Popular Picks</div>
+      <div class="popular-pick3" id="popularPick3Container">
+        <div class="popular-pick3-child"></div>
+      </div>
+      <div class="popular-pick4" id="popularPick4Container">
+        <div class="popular-pick3-child"></div>
+      </div>
+      <div class="popular-pick1" id="popularPick1Container">
+        <div class="popular-pick3-child"></div>
+      </div>
+      <div class="popular-pick-2" id="popularPick2">
+        <div class="popular-pick3-child"></div>
+      </div>
+      <div class="popular-pick5" id="popularPick5Container">
+        <div class="popular-pick3-child"></div>
+      </div>
+      <div class="popular-pick7" id="popularPick7Container">
+        <div class="popular-pick3-child"></div>
+      </div>
+      <div class="more" id="moreText">More</div>
+      <header class="slideshow" id="slideshow">
+        <img class="component-1-icon" alt="" src="./public/component-1.svg" />
+      </header>
+    </div>
+
+    <script>
+      var all = document.getElementById("all");
+      if (all) {
+        all.addEventListener("click", function (e) {
+          window.location.href = "./all-select.html";
+        });
+      }
+      
+      var combos = document.getElementById("combos");
+      if (combos) {
+        combos.addEventListener("click", function (e) {
+          window.location.href = "./combo-select.html";
+        });
+      }
+      
+      var desert = document.getElementById("desert");
+      if (desert) {
+        desert.addEventListener("click", function (e) {
+          window.location.href = "./desert-select.html";
+        });
+      }
+      
+      var drinks = document.getElementById("drinks");
+      if (drinks) {
+        drinks.addEventListener("click", function (e) {
+          window.location.href = "./drinks-select.html";
+        });
+      }
+      
+      var all1 = document.getElementById("all1");
+      if (all1) {
+        all1.addEventListener("click", function (e) {
+          window.location.href = "./special.html";
+        });
+      }
+      
+      var popularPick3Container = document.getElementById("popularPick3Container");
+      if (popularPick3Container) {
+        popularPick3Container.addEventListener("click", function (e) {
+          window.location.href = "./dish-overview.html";
+        });
+      }
+      
+      var popularPick4Container = document.getElementById("popularPick4Container");
+      if (popularPick4Container) {
+        popularPick4Container.addEventListener("click", function (e) {
+          window.location.href = "./dish-overview.html";
+        });
+      }
+      
+      var popularPick1Container = document.getElementById("popularPick1Container");
+      if (popularPick1Container) {
+        popularPick1Container.addEventListener("click", function (e) {
+          window.location.href = "./dish-overview.html";
+        });
+      }
+      
+      var popularPick2 = document.getElementById("popularPick2");
+      if (popularPick2) {
+        popularPick2.addEventListener("click", function (e) {
+          window.location.href = "./dish-overview.html";
+        });
+      }
+      
+      var popularPick5Container = document.getElementById("popularPick5Container");
+      if (popularPick5Container) {
+        popularPick5Container.addEventListener("click", function (e) {
+          window.location.href = "./dish-overview.html";
+        });
+      }
+      
+      var popularPick7Container = document.getElementById("popularPick7Container");
+      if (popularPick7Container) {
+        popularPick7Container.addEventListener("click", function (e) {
+          window.location.href = "./dish-overview.html";
+        });
+      }
+      
+      var moreText = document.getElementById("moreText");
+      if (moreText) {
+        moreText.addEventListener("click", function (e) {
+          window.location.href = "./search-result.html";
+        });
+      }
+      
+      var slideshow = document.getElementById("slideshow");
+      if (slideshow) {
+        slideshow.addEventListener("click", function (e) {
+          window.location.href = "./dish-overview.html";
+        });
+      }
+      </script>
+  </body>
+</html>

@@ -1,0 +1,215 @@
+.search3 {
+  position: absolute;
+  height: 82.78%;
+  top: 0;
+  left: calc(50% - 38.5px);
+  display: inline-block;
+  width: 73px;
+}
+.search-alt-duotone-line-icon1 {
+  position: absolute;
+  top: 4px;
+  left: 7px;
+  width: 17px;
+  height: 14px;
+}
+.search2 {
+  position: absolute;
+  height: 2.13%;
+  top: 4.36%;
+  bottom: 93.51%;
+  left: calc(50% - 151px);
+  border-radius: var(--br-15xl);
+  background-color: var(--color-gainsboro);
+  width: 275px;
+}
+.shop-icon1 {
+  position: absolute;
+  height: 3.04%;
+  width: 8.33%;
+  top: 3.53%;
+  right: 2.78%;
+  bottom: 93.43%;
+  left: 88.89%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  cursor: pointer;
+}
+.all3 {
+  height: 33.81%;
+  width: 45.1%;
+  top: 32.58%;
+  left: 29.58%;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-kameron);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+}
+.all2,
+.all3,
+.combos3 {
+  position: absolute;
+}
+.all2 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-gainsboro);
+  height: 7.19%;
+  width: 25.75%;
+  top: 7.7%;
+  right: 70.64%;
+  bottom: 85.11%;
+  left: 3.61%;
+  border-radius: var(--br-15xl);
+}
+.combos3 {
+  width: 100%;
+  top: calc(50% - 12.76px);
+  left: 0;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-kameron);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  height: 26px;
+}
+.combos2 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-gainsboro);
+  position: absolute;
+  height: 7.19%;
+  width: 25.75%;
+  top: 7.61%;
+  right: 38.42%;
+  bottom: 85.2%;
+  left: 35.83%;
+  border-radius: var(--br-15xl);
+}
+.deserts3 {
+  position: absolute;
+  width: 92.47%;
+  top: calc(50% - 12.76px);
+  left: 7.53%;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-kameron);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  height: 26px;
+}
+.deserts2 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-gainsboro);
+  position: absolute;
+  height: 7.19%;
+  width: 25.75%;
+  top: 7.51%;
+  right: 3.7%;
+  bottom: 85.3%;
+  left: 70.56%;
+  border-radius: var(--br-15xl);
+}
+.drinks3 {
+  position: absolute;
+  width: 77.68%;
+  top: calc(50% - 12.76px);
+  left: 16.18%;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-kameron);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  height: 26px;
+}
+.drinks2 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-goldenrod);
+  position: absolute;
+  height: 7.19%;
+  width: 25.75%;
+  top: 17.63%;
+  right: 55.64%;
+  bottom: 75.18%;
+  left: 18.61%;
+  border-radius: var(--br-15xl);
+}
+.special4 {
+  position: absolute;
+  width: 89.25%;
+  top: calc(50% - 12.76px);
+  left: 10.75%;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-kameron);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  height: 26px;
+}
+.special3 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-gainsboro);
+  position: absolute;
+  height: 7.19%;
+  width: 25.75%;
+  top: 17.63%;
+  right: 16.75%;
+  bottom: 75.18%;
+  left: 57.5%;
+  border-radius: var(--br-15xl);
+}
+.item-no1-item {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  background-color: var(--color-darkgray);
+  width: 122px;
+  height: 120px;
+}
+.item-no11,
+.item-no21,
+.item-no32,
+.item-no33 {
+  position: absolute;
+  top: 357px;
+  left: 7px;
+  background-color: var(--color-gainsboro);
+  width: 343px;
+  height: 121.77px;
+  cursor: pointer;
+}
+.item-no21,
+.item-no32,
+.item-no33 {
+  top: 539px;
+}
+.item-no32,
+.item-no33 {
+  top: 721px;
+  left: 8px;
+}
+.item-no33 {
+  top: 886px;
+  left: 7px;
+}
+.drinks-select {
+  position: relative;
+  background-color: var(--color-lightsteelblue);
+  width: 100%;
+  height: 1078px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-jura);
+}

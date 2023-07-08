@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./dish-overview.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Jura:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Kameron:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Kadwa:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="dish-overview">
+      <div class="description-rect">
+        <div class="description-rect-child"></div>
+        <div class="rating-frame">
+          <div class="ratings">
+            <div class="ratings-child"></div>
+            <div class="rating">
+              <b class="b">4.8</b>
+              <img class="vector-icon" alt="" src="./public/vector.svg" />
+            </div>
+          </div>
+          <b class="rs-200">Rs 200</b>
+        </div>
+        <div class="food-name">Food Name</div>
+        <div class="food-description">
+          <div class="food-description1">
+            Food Description.....................................!
+          </div>
+        </div>
+        <div class="ratings1">
+          <b class="rs-2001">Rs 200</b>
+        </div>
+        <img
+          class="description-rect-item"
+          alt=""
+          src="./public/ellipse-68.svg"
+        />
+
+        <img class="shop-icon6" alt="" src="./public/shop2.svg" id="shopIcon" />
+
+        <button class="group-back-arrow1" id="groupBackArrow">
+          <div class="group-back-arrow-item"></div>
+          <img
+            class="arrow-alt-left-icon1"
+            alt=""
+            src="./public/arrow-alt-left1.svg"
+          />
+        </button>
+      </div>
+      <button class="add-to-cart">
+        <b class="add-to-cart1">Add to Cart</b>
+      </button>
+    </div>
+
+    <script>
+      var shopIcon = document.getElementById("shopIcon");
+      if (shopIcon) {
+        shopIcon.addEventListener("click", function (e) {
+          window.location.href = "./mobile-cart.html";
+        });
+      }
+      
+      var groupBackArrow = document.getElementById("groupBackArrow");
+      if (groupBackArrow) {
+        groupBackArrow.addEventListener("click", function (e) {
+          // Please sync "orders selection" to the project
+        });
+      }
+      </script>
+  </body>
+</html>

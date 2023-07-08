@@ -1,0 +1,294 @@
+.search10 {
+  border-radius: var(--br-15xl);
+  background-color: var(--color-gainsboro);
+  position: absolute;
+  top: 78.38px;
+  left: 71px;
+  width: 239px;
+  height: 39.99px;
+}
+.shop-icon8 {
+  position: absolute;
+  height: 2.4%;
+  width: 10.28%;
+  top: 4.24%;
+  right: 2.5%;
+  bottom: 93.36%;
+  left: 87.22%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.todays-special {
+  position: absolute;
+  height: 4.63%;
+  width: 33.07%;
+  top: 17.84%;
+  left: 6.67%;
+  display: inline-block;
+}
+.image-1-icon {
+  height: 2.42%;
+  width: 19.17%;
+  top: 3.83%;
+  right: 80.28%;
+  bottom: 93.74%;
+  left: 0.56%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.all10,
+.all11,
+.image-1-icon {
+  position: absolute;
+}
+.all11 {
+  height: 33.81%;
+  width: 45.1%;
+  top: 32.58%;
+  left: 29.58%;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-kameron);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+}
+.all10 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-gainsboro);
+  height: 4.16%;
+  width: 25.75%;
+  top: 7.7%;
+  right: 70.64%;
+  bottom: 88.14%;
+  left: 3.61%;
+  border-radius: var(--br-15xl);
+}
+.combos11 {
+  position: absolute;
+  height: 34.05%;
+  width: 100%;
+  top: 33.69%;
+  left: 0;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-kameron);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+}
+.combos10 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-gainsboro);
+  position: absolute;
+  height: 4.26%;
+  width: 25.75%;
+  top: 7.61%;
+  right: 38.42%;
+  bottom: 88.14%;
+  left: 35.83%;
+  border-radius: var(--br-15xl);
+}
+.deserts10 {
+  position: absolute;
+  height: 34.05%;
+  width: 92.47%;
+  top: 34.98%;
+  left: 7.53%;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-kameron);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+}
+.desert {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-gainsboro);
+  position: absolute;
+  height: 4.35%;
+  width: 25.75%;
+  top: 7.51%;
+  right: 3.7%;
+  bottom: 88.14%;
+  left: 70.56%;
+  border-radius: var(--br-15xl);
+}
+.drinks11 {
+  position: absolute;
+  height: 34.05%;
+  width: 77.68%;
+  top: 32.82%;
+  left: 10.79%;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-kameron);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+}
+.drinks10 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-gainsboro);
+  position: absolute;
+  height: 4.34%;
+  width: 25.83%;
+  top: 13.07%;
+  right: 57.78%;
+  bottom: 82.58%;
+  left: 16.39%;
+  border-radius: var(--br-15xl);
+}
+.special11 {
+  position: absolute;
+  height: 34.88%;
+  width: 89.25%;
+  top: 32.56%;
+  left: 10.75%;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-kameron);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+}
+.all12,
+.mobile-menu-home-page-child {
+  position: absolute;
+  background-color: var(--color-gainsboro);
+}
+.all12 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  height: 4.34%;
+  width: 25.83%;
+  top: 13.07%;
+  right: 18.61%;
+  bottom: 82.58%;
+  left: 55.56%;
+  border-radius: var(--br-15xl);
+}
+.mobile-menu-home-page-child {
+  height: 16.76%;
+  width: 87.78%;
+  top: 23.61%;
+  right: 5.56%;
+  bottom: 59.64%;
+  left: 6.67%;
+}
+.popular-picks {
+  position: absolute;
+  height: 4.58%;
+  width: 63.61%;
+  top: 40.84%;
+  left: 6.67%;
+  display: inline-block;
+}
+.popular-pick3-child {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  background-color: var(--color-darkgray);
+  width: 122px;
+  height: 120px;
+}
+.popular-pick3 {
+  top: 1122px;
+  left: 8px;
+  background-color: var(--color-gainsboro);
+  width: 342px;
+  height: 120px;
+}
+.popular-pick1,
+.popular-pick3,
+.popular-pick4 {
+  position: absolute;
+  cursor: pointer;
+}
+.popular-pick4 {
+  top: 1273px;
+  left: 8px;
+  background-color: var(--color-gainsboro);
+  width: 342px;
+  height: 121px;
+}
+.popular-pick1 {
+  top: 830px;
+  height: 120px;
+}
+.popular-pick-2,
+.popular-pick1,
+.popular-pick5 {
+  left: 8px;
+  background-color: var(--color-gainsboro);
+  width: 342px;
+}
+.popular-pick-2 {
+  position: absolute;
+  top: 976px;
+  height: 121px;
+  cursor: pointer;
+}
+.popular-pick5 {
+  top: 1425px;
+  height: 120px;
+}
+.more,
+.popular-pick5,
+.popular-pick7 {
+  position: absolute;
+  cursor: pointer;
+}
+.popular-pick7 {
+  top: 1570px;
+  left: 8px;
+  background-color: var(--color-gainsboro);
+  width: 342px;
+  height: 121px;
+}
+.more {
+  top: 1700px;
+  left: 156px;
+  font-size: var(--font-size-xl);
+  text-decoration: underline;
+  font-weight: 300;
+  display: inline-block;
+  width: 47px;
+  height: 25px;
+}
+.component-1-icon {
+  position: relative;
+  width: 316px;
+  height: 314px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.slideshow {
+  position: absolute;
+  top: 433px;
+  left: 14px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.mobile-menu-home-page {
+  position: relative;
+  background-color: var(--color-lightsteelblue);
+  width: 100%;
+  height: 1878px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-17xl);
+  color: var(--color-black);
+  font-family: var(--font-kanit);
+}

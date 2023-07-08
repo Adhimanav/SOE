@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./search-result.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Jura:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Kameron:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Kadwa:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="search-result">
+      <input
+        class="search9"
+        type="search"
+        placeholder="Search"
+        maxlength="{15}"
+        minlength="{00}"
+      />
+
+      <img class="shop-icon5" alt="" src="./public/shop.svg" id="shopIcon" />
+
+      <div class="item-no6" id="itemNo6Container">
+        <div class="item-no6-child"></div>
+      </div>
+      <div class="item-no5" id="itemNo5Container">
+        <div class="item-no6-child"></div>
+      </div>
+      <div class="item-no4" id="itemNo4Container">
+        <div class="item-no6-child"></div>
+      </div>
+      <div class="item-no310" id="itemNo3Container">
+        <div class="item-no6-child"></div>
+      </div>
+      <div class="item-no25" id="itemNo2Container">
+        <div class="item-no6-child"></div>
+      </div>
+      <div class="item-no15" id="itemNo1Container">
+        <div class="item-no6-child"></div>
+      </div>
+      <button class="group-back-arrow" id="groupBackArrow">
+        <div class="group-back-arrow-child"></div>
+        <img
+          class="arrow-alt-left-icon"
+          alt=""
+          src="./public/arrow-alt-left.svg"
+        />
+      </button>
+    </div>
+
+    <script>
+      var shopIcon = document.getElementById("shopIcon");
+      if (shopIcon) {
+        shopIcon.addEventListener("click", function (e) {
+          window.location.href = "./mobile-cart.html";
+        });
+      }
+      
+      var itemNo6Container = document.getElementById("itemNo6Container");
+      if (itemNo6Container) {
+        itemNo6Container.addEventListener("click", function (e) {
+          window.location.href = "./dish-overview.html";
+        });
+      }
+      
+      var itemNo5Container = document.getElementById("itemNo5Container");
+      if (itemNo5Container) {
+        itemNo5Container.addEventListener("click", function (e) {
+          window.location.href = "./dish-overview.html";
+        });
+      }
+      
+      var itemNo4Container = document.getElementById("itemNo4Container");
+      if (itemNo4Container) {
+        itemNo4Container.addEventListener("click", function (e) {
+          window.location.href = "./dish-overview.html";
+        });
+      }
+      
+      var itemNo3Container = document.getElementById("itemNo3Container");
+      if (itemNo3Container) {
+        itemNo3Container.addEventListener("click", function (e) {
+          window.location.href = "./dish-overview.html";
+        });
+      }
+      
+      var itemNo2Container = document.getElementById("itemNo2Container");
+      if (itemNo2Container) {
+        itemNo2Container.addEventListener("click", function (e) {
+          window.location.href = "./dish-overview.html";
+        });
+      }
+      
+      var itemNo1Container = document.getElementById("itemNo1Container");
+      if (itemNo1Container) {
+        itemNo1Container.addEventListener("click", function (e) {
+          window.location.href = "./dish-overview.html";
+        });
+      }
+      
+      var groupBackArrow = document.getElementById("groupBackArrow");
+      if (groupBackArrow) {
+        groupBackArrow.addEventListener("click", function (e) {
+          // Please sync "orders selection" to the project
+        });
+      }
+      </script>
+  </body>
+</html>

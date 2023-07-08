@@ -1,0 +1,217 @@
+.description-rect-child {
+  position: absolute;
+  top: 284px;
+  left: 0;
+  border-radius: var(--br-26xl) var(--br-26xl) 0 0;
+  background-color: #bbbcca;
+  width: 360px;
+  height: 786px;
+}
+.ratings-child {
+  top: 0;
+  left: 6px;
+  border-radius: var(--br-15xl);
+  background-color: var(--color-lightsteelblue);
+  width: 104px;
+  height: 42px;
+}
+.b,
+.ratings-child,
+.vector-icon {
+  position: absolute;
+}
+.b {
+  top: calc(50% - 16.28px);
+  left: 32.06px;
+  display: inline-block;
+  width: 40.82px;
+  height: 32.91px;
+}
+.vector-icon {
+  height: 66.87%;
+  width: 35.42%;
+  top: 32.06%;
+  right: 64.32%;
+  bottom: 1.07%;
+  left: 0.26%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.rating {
+  position: absolute;
+  top: 0.49px;
+  left: 12.94px;
+  width: 72.88px;
+  height: 32.91px;
+  transform: rotate(-0.32deg);
+  transform-origin: 0 0;
+}
+.ratings,
+.rs-200 {
+  position: absolute;
+  top: 5px;
+  left: 26px;
+  width: 110px;
+  height: 33px;
+}
+.rs-200 {
+  height: 73.13%;
+  width: 233.2%;
+  top: 7.46%;
+  left: 710.44%;
+  display: inline-block;
+  color: var(--color-goldenrod);
+}
+.rating-frame {
+  position: absolute;
+  height: 6.26%;
+  width: 10.24%;
+  top: 41.5%;
+  right: 89.76%;
+  bottom: 52.24%;
+  left: 0;
+  font-size: var(--font-size-5xl);
+}
+.food-description1,
+.food-name {
+  position: absolute;
+  display: inline-block;
+}
+.food-name {
+  height: 5.38%;
+  width: 51.8%;
+  top: 35.89%;
+  left: 25.28%;
+  font-family: var(--font-kameron);
+  transform: rotate(0.59deg);
+  transform-origin: 0 0;
+}
+.food-description1 {
+  height: 19.62%;
+  width: 90.34%;
+  top: 14.72%;
+  left: 4.46%;
+}
+.food-description {
+  position: absolute;
+  height: 9.53%;
+  width: 90.71%;
+  top: 58.5%;
+  right: 5.28%;
+  bottom: 31.97%;
+  left: 4.01%;
+  border-radius: var(--br-15xl);
+  background-color: var(--color-gainsboro);
+  font-size: 16px;
+  font-family: var(--font-kameron);
+}
+.rs-2001 {
+  position: absolute;
+  height: 69.86%;
+  width: 125.55%;
+  top: 6.71%;
+  left: 835.01%;
+  display: inline-block;
+  transform: rotate(-0.1deg);
+  transform-origin: 0 0;
+}
+.ratings1 {
+  position: absolute;
+  bottom: 167.16px;
+  left: 213.71px;
+  width: 105.76px;
+  height: 79.5px;
+  color: var(--color-goldenrod);
+}
+.description-rect-item,
+.shop-icon6 {
+  position: absolute;
+  height: 28.04%;
+  width: 83.33%;
+  top: 6.36%;
+  right: 8.33%;
+  bottom: 65.61%;
+  left: 8.33%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.shop-icon6 {
+  height: 3.26%;
+  width: 11.94%;
+  top: 3.74%;
+  right: 3.33%;
+  bottom: 93%;
+  left: 84.72%;
+  cursor: pointer;
+}
+.group-back-arrow-item {
+  position: absolute;
+  top: 1px;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-gainsboro);
+  width: 37px;
+  height: 32px;
+}
+.arrow-alt-left-icon1,
+.group-back-arrow1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40px;
+  height: 36px;
+}
+.group-back-arrow1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 44px;
+  left: 22px;
+}
+.description-rect {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 360px;
+  height: 1070px;
+}
+.add-to-cart1 {
+  position: absolute;
+  top: calc(50% - 21px);
+  left: 16.39px;
+  font-size: var(--font-size-5xl);
+  display: inline-block;
+  font-family: var(--font-kadwa);
+  color: var(--color-black);
+  text-align: left;
+  width: 150px;
+  height: 41px;
+}
+.add-to-cart {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: #c57832;
+  position: absolute;
+  height: 7.29%;
+  width: 46.19%;
+  top: 84.39%;
+  right: 27.14%;
+  bottom: 8.32%;
+  left: 26.67%;
+  border-radius: var(--br-15xl);
+}
+.dish-overview {
+  position: relative;
+  background: linear-gradient(180deg, #6d6969, rgba(255, 255, 255, 0));
+  width: 100%;
+  height: 1070px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-17xl);
+  color: var(--color-black);
+  font-family: var(--font-kadwa);
+}

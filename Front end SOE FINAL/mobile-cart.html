@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./mobile-cart.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Jura:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Kameron:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Kadwa:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="mobile-cart">
+      <img class="shop-icon7" alt="" src="./public/shop3.svg" />
+
+      <div class="my-orders">My Orders</div>
+      <div class="item-no16">
+        <div class="item-no1-child4"></div>
+        <div class="item-no1-child5"></div>
+        <b class="rs-2002">Rs 200</b>
+        <div class="no-of-order-1">
+          <div class="no-of-order-1-child"></div>
+          <div class="div">1</div>
+          <img class="sub-icon" alt="" src="./public/sub.svg" />
+
+          <img class="plus-icon" alt="" src="./public/plus.svg" />
+        </div>
+        <img class="component-icon" alt="" src="./public/component.svg" />
+      </div>
+      <div class="item-no26">
+        <div class="item-no2-child4"></div>
+        <div class="item-no2-child5"></div>
+        <b class="rs-2003">Rs 200</b>
+        <div class="no-of-order-11">
+          <div class="no-of-order-1-child"></div>
+          <div class="div">1</div>
+          <img class="sub-icon" alt="" src="./public/sub.svg" />
+
+          <img class="plus-icon" alt="" src="./public/plus.svg" />
+        </div>
+        <img class="component-icon1" alt="" src="./public/component.svg" />
+      </div>
+      <div class="input-instructions-text">
+        <div class="order-instructions">Order Instructions</div>
+        <input
+          class="input-instructions-text-child"
+          type="text"
+          placeholder="Your Order Instructions"
+          maxlength="{200}"
+          minlength="{00}"
+        />
+
+        <img class="edit-fill-icon" alt="" src="./public/edit-fill.svg" />
+      </div>
+      <div class="total">
+        <b>Total</b>
+        <span>:</span>
+      </div>
+      <div class="total-frame">
+        <b class="rs-400">Rs 400</b>
+        <div class="total1">
+          <b>Total</b>
+          <span>:</span>
+        </div>
+      </div>
+      <button class="order-button">
+        <img
+          class="order-button-child"
+          alt=""
+          src="./public/rectangle-18.svg"
+        />
+
+        <div class="checkout">Checkout</div>
+      </button>
+      <button class="back-to-menu">Back to menu</button>
+      <button class="group-back-arrow2" id="groupBackArrow">
+        <div class="group-back-arrow-inner"></div>
+        <img
+          class="arrow-alt-left-icon2"
+          alt=""
+          src="./public/arrow-alt-left2.svg"
+        />
+      </button>
+    </div>
+
+    <script>
+      var groupBackArrow = document.getElementById("groupBackArrow");
+      if (groupBackArrow) {
+        groupBackArrow.addEventListener("click", function (e) {
+          // Please sync "orders selection" to the project
+        });
+      }
+      </script>
+  </body>
+</html>
